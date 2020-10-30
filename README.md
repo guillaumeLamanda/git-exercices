@@ -11,6 +11,7 @@ Le but :
 ## Rudiments de GIT
 
 Dans cette section nous allons voir les basiques de l'outil.
+Ceci est la coquille à supprimer
 
 ### C'est quoi git
 
@@ -130,3 +131,10 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `rudiments` sur `develop`.
+
+#### 1.1 Correction de la section `Rudiments de GIT`
+
+- Tirer une branche `feat/rudiments/XXX` depuis la branche `rudiments`
+- Supprimer le texte "Ceci est la coquille à supprimer"
+- pousser sur la branche `feat/rudiments/XXX`
+- faire un merge-rebase sur la branche `rudiments`
