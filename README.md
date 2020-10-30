@@ -130,3 +130,10 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `gestion-branche` sur `develop`.
+
+# 2.1 Correction de la section `La gestion des branches de NV`
+
+- Tirer une branche `feat/gestion-branches/XXX` depuis la branche `gestion-branches`
+- Corriger le texte
+- pousser sur la branche `feat/gestion-branches/XXX`
+- faire un merge-rebase sur la branche `gestion-branches`
