@@ -37,3 +37,12 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `rebase` sur `develop`.
+
+#### 5.2 Remplacer le contenu de la section `Rudiments de GIT`
+
+- tirer une branche feat/rebase/XXX depuis la branche rebase
+- supprimer le contenu de la section
+- créer un fichier vide `rebase.md`
+- mettre un lien vers le fichier `rebase.md`
+- pousser sur la branche feat/rebase/XXX
+- faire un merge-rebase sur la branche rebase
