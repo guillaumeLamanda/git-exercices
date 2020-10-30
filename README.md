@@ -21,6 +21,7 @@ https://excalidraw.com/#room=b3c2806be94327fe33ea,a8L6TXkvLzzYxrC0LRsSsw
 ## Maîtriser la commande `rebase`
 
 Vous allez apprendre à utiliser la commande rebase grâce aux exercices à suivre.
+Ceci est la coquille à supprimer
 
 ## Exercices
 
@@ -37,9 +38,9 @@ Lorsque votre équipe aura terminé son travail :
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `rebase` sur `develop`.
 
-# 5.1 Correction de la section `Maîtriser la commande rebase`
+#### 5.1 Correction de la section `Maîtriser la commande rebase`
 
 - Tirer une branche `feat/rebase/XXX` depuis la branche `rebase`
-- Corriger le texte
+- Supprimer le texte "Ceci est la coquille à supprimer"
 - pousser sur la branche `feat/rebase/XXX`
 - faire un merge-rebase sur la branche `rebase`
