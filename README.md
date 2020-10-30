@@ -130,3 +130,12 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `rudiments` sur `develop`.
+
+#### 1.2 Remplacer le contenu de la section `Rudiments de GIT`
+
+- tirer une branche feat/rudiments/XXX depuis la branche rudiments
+- supprimer le contenu de la section
+- créer un fichier vide `rudiments.md`
+- mettre un lien vers le fichier `rudiments.md`
+- pousser sur la branche feat/rudiments/XXX
+- faire un merge-rebase sur la branche rudiments
