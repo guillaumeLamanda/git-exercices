@@ -37,3 +37,12 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `conflits` sur `develop`.
+
+#### 4.2 Remplacer le contenu de la section `Rudiments de GIT`
+
+- tirer une branche feat/conflits/XXX depuis la branche conflits
+- supprimer le contenu de la section
+- créer un fichier vide `conflits.md`
+- mettre un lien vers le fichier `conflits.md`
+- pousser sur la branche feat/conflits/XXX
+- faire un merge-rebase sur la branche conflits
