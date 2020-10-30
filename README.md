@@ -36,3 +36,10 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `rebase` sur `develop`.
+
+# 5.1 Correction de la section `Maîtriser la commande rebase`
+
+- Tirer une branche `feat/rebase/XXX` depuis la branche `rebase`
+- Corriger le texte
+- pousser sur la branche `feat/rebase/XXX`
+- faire un merge-rebase sur la branche `rebase`
