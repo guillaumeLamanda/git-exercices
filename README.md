@@ -37,3 +37,10 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `conflits` sur `develop`.
+
+#### 4.1 Correction de la section `Gestion de conflit`
+
+- Tirer une branche `feat/conflits/XXX` depuis la branche `conflits`
+- Corriger le texte
+- pousser sur la branche `feat/conflits/XXX`
+- faire un merge-rebase sur la branche `conflits`
