@@ -193,6 +193,9 @@ On se retrouve donc avec :
 
 - notre branche de feature qui ne contient **que** notre commit de feature,
 - le commit design system qu'on avait commit sur notre branche aura **disparue** 👻 🔥
+Ceci est la coquille à supprimer
+
+## Gestion de conflit
 
 ## Maîtriser la commande `rebase`
 
@@ -211,9 +214,9 @@ Lorsque votre équipe aura terminé son travail :
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `workflows` sur `develop`.
 
-# 3.1 Correction de la section `Workflows courants`
+#### 3.1 Correction de la section `Workflows courants`
 
 - Tirer une branche `feat/workflows/XXX` depuis la branche `workflows`
-- Corriger le texte
+- Supprimer le texte "Ceci est la coquille à supprimer"
 - pousser sur la branche `feat/workflows/XXX`
 - faire un merge-rebase sur la branche `workflows`
