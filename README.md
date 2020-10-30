@@ -212,3 +212,12 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `workflows` sur `develop`.
+
+#### 3.2 Remplacer le contenu de la section `Rudiments de GIT`
+
+- tirer une branche feat/workflows/XXX depuis la branche workflows
+- supprimer le contenu de la section
+- créer un fichier vide `workflows.md`
+- mettre un lien vers le fichier `workflows.md`
+- pousser sur la branche feat/workflows/XXX
+- faire un merge-rebase sur la branche workflows
