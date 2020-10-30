@@ -38,6 +38,6 @@ Lorsque votre équipe aura terminé son travail :
 #### 6.1 Correction de la section `Maîtriser la commande rebase`
 
 - Tirer une branche `feat/exercices/XXX` depuis la branche `exercices`
-- Déplacer chaque section dans un fichier .md à part
+- Déplacer chaque section principale (rudiments, gestion des branches, workflows, conflits, rebase, exercices) dans un fichier .md à part
 - pousser sur la branche `feat/exercices/XXX`
 - faire un merge-rebase sur la branche `exercices`
