@@ -117,3 +117,16 @@ Présentation de Yann / Sylvain
 ## Maîtriser la commande `rebase`
 
 ## Exercices
+
+### Exercice 2
+
+Vos faites partie de l'équipe `gestion-branche`.
+L'exercice est composé de plusieurs parties.
+Vous devez réaliser la partie décrite dans votre branche.
+N'oubliez pas de rebase votre branche depuis la branche `gestion-branche`.
+Lorsque vous devrez rebase la branche `gestion-branche` depuis votre branche, prévenez votre collègue avant.
+Il devra rebase sa branche sur la branche `gestion-branche`.
+Lorsque votre équipe aura terminé son travail :
+
+1. prévenez les autres équipes que vous allez rebase
+2. faites le rebase de la branche `gestion-branche` sur `develop`.
