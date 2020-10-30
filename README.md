@@ -210,3 +210,15 @@ Lorsque votre équipe aura terminé son travail :
 
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `workflows` sur `develop`.
+### Exercice 6
+
+Vos faites partie de l'équipe `exercises`.
+L'exercice est composé de plusieurs parties.
+Vous devez réaliser la partie décrite dans votre branche.
+N'oubliez pas de rebase votre branche depuis la branche `exercises`.
+Lorsque vous devrez rebase la branche `exercises` depuis votre branche, prévenez votre collègue avant.
+Il devra rebase sa branche sur la branche `exercises`.
+Lorsque votre équipe aura terminé son travail :
+
+1. prévenez les autres équipes que vous allez rebase
+2. faites le rebase de la branche `exercises` sur `develop`.
