@@ -106,9 +106,9 @@ Si on résume :
 
 ![basic resume](./images/basics-resume.png)
 
-## La gestion des branches de NV
+## La gestion des branches
 
-https://excalidraw.com/#room=b3c2806be94327fe33ea,a8L6TXkvLzzYxrC0LRsSsw
+Présentation de Yann / Sylvain
 
 ## Workflows courants
 
