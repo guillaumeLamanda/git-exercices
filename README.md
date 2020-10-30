@@ -35,7 +35,7 @@ Lorsque votre équipe aura terminé son travail :
 1. prévenez les autres équipes que vous allez rebase
 2. faites le rebase de la branche `exercises` sur `develop`.
 
-# 6.1 Correction de la section `Maîtriser la commande rebase`
+#### 6.1 Correction de la section `Maîtriser la commande rebase`
 
 - Tirer une branche `feat/exercices/XXX` depuis la branche `exercices`
 - Déplacer chaque section dans un fichier .md à part
