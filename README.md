@@ -14,7 +14,7 @@ Dans cette section nous allons voir les basiques de l'outil.
 
 ### C'est quoi git
 
-Git est un Gestionnaire de version **distribué**.  
+Git est un Gestionnaire de version **distribué**.
 Il est distribué parce qu'il permet d'ajouter plusieurs sources (`remotes`).
 
 Il permet de :
@@ -23,7 +23,7 @@ Il permet de :
 - consulter les modifications apportées,
 - revenir en arrière en cas d'erreurs.
 
-Tout outil de versioning se base sur des `commits`.  
+Tout outil de versioning se base sur des `commits`.
 Ce sont des checkpoints (ou point de sauvegarde) de nos documents à un instant donné.
 
 Un commit doit se suffire à lui même :
@@ -39,10 +39,10 @@ Un commit doit se suffire à lui même :
 
 #### Créer une branche
 
-`git branch <maNouvelleBranche>`  
+`git branch <maNouvelleBranche>`
 Créer une nouvelle branche à partir de mon état actuel. Je dois ensuite [naviguer sur la branche nouvellement créée](#naviguer-vers-une-branche).
 
-`git checkout -b <maNouvelleBranche>`  
+`git checkout -b <maNouvelleBranche>`
 Créer une nouvelle branche et me positionne dessus.
 
 #### Naviguer vers une branche
@@ -65,12 +65,12 @@ Une fois le fichier ajouter au stage, le retour de `git status` est le suivant :
 
 ![staged](images/staged.png)
 
-> Pensez à utiliser votre stage !  
+> Pensez à utiliser votre stage !
 > Il est utile pour garder les changements dont vous êtes sur, mais avec un travail "en cours".
 
-> Il est également possible de n'ajouter que certaines lignes d'un fichier modifier à votre stage :  
-> `git add -p` ou `git add -i`.  
-> Ce n'est pas les commandes les plus faciles à utiliser, mais leur intégration dans les éditeurs est bonne.  
+> Il est également possible de n'ajouter que certaines lignes d'un fichier modifier à votre stage :
+> `git add -p` ou `git add -i`.
+> Ce n'est pas les commandes les plus faciles à utiliser, mais leur intégration dans les éditeurs est bonne.
 > Sur VSCode par exemple, vous pouvez pouvez cliquez l'indicateur du `chunk` (partie modifiée), et l'ajouter à votre stage.
 
 Pour supprimer des fichiers de votre stage, vous pouvez utiliser les commandes suivantes :
@@ -81,9 +81,9 @@ ou
 
 `git reset HEAD <monfichier>`.
 
-Cette deuxième commande fonctionne sur l'entièreté de votre arbre de modification.  
-Ici, `HEAD` est un alias vers le hash du dernier commit. Cependant, il peut être remplacé par tout hash de votre arbre.  
-Mettons que vous vouliez restaurer le fichier `./fichier1` à une ancienne version avec le hash `abcdef`, vous pouvez le faire de la manière suivante :  
+Cette deuxième commande fonctionne sur l'entièreté de votre arbre de modification.
+Ici, `HEAD` est un alias vers le hash du dernier commit. Cependant, il peut être remplacé par tout hash de votre arbre.
+Mettons que vous vouliez restaurer le fichier `./fichier1` à une ancienne version avec le hash `abcdef`, vous pouvez le faire de la manière suivante :
 `git reset aebcef ./fichier1`.
 
 Enfin, pour supprimer une modification non voulu, vous pouvez utiliser la commande `git checkout <monDossierOuMonFichier>`.
@@ -112,6 +112,7 @@ https://excalidraw.com/#room=b3c2806be94327fe33ea,a8L6TXkvLzzYxrC0LRsSsw
 
 ## Workflows courants
 
+<<<<<<< HEAD
 Imaginons...
 
 Je développe la fonctionnalité f5
@@ -196,6 +197,8 @@ On se retrouve donc avec :
 
 Ceci est la coquille à supprimer
 
+=======
+>>>>>>> feat(workflows): delete old workflows description on README
 ## Maîtriser la commande `rebase`
 
 ## Exercices
