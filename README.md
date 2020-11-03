@@ -18,6 +18,8 @@ https://excalidraw.com/#room=b3c2806be94327fe33ea,a8L6TXkvLzzYxrC0LRsSsw
 
 ## Gestion de conflit
 
+Finalement cette section a été supprimée.
+
 ## Maîtriser la commande `rebase`
 
 ## Exercices
