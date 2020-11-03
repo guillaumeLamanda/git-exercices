@@ -39,6 +39,18 @@ Créer une nouvelle branche et me positionne dessus.
 
 `git checkout <uneBranche>`
 
+#### Lister les branches
+
+**Les branches locales**  
+`git branch`
+
+**Les branches distantes**  
+`git branch --remotes`
+
+#### Renommer une branche
+
+`git branch -m <new_name>`
+
 #### Sauvegarder les modifications
 
 Lorsque vous faites des modifications sur un arbre GIT, elles ne sont pas sauvegarder tant que vous ne l'explicitez pas. Les fichier sont dans votre `working directory` (répertoire de travail).
