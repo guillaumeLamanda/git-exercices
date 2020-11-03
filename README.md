@@ -10,7 +10,6 @@ Le but :
 
 ## Rudiments de GIT
 
-Dans cette section nous allons voir les basiques de l'outil.
 
 ### C'est quoi git
 
