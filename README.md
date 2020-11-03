@@ -110,6 +110,8 @@ Si on résume :
 
 Présentation de Yann / Sylvain
 
+Ceci est la coquille à supprimer
+
 ## Workflows courants
 
 ## Gestion de conflit
